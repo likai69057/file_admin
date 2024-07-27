@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/articleContent/articleContent.css">
+    <link rel="stylesheet" href="../static/css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../static/css/iconfont2/iconfont.css">
+</head>
+<body>
+<div class="login_logo">
+    <img src="../static/img/系统.png">
+    <span>文章发布系统</span>
+    <button><i class="iconfont icon-tuichu"></i>退&nbsp;&nbsp;&nbsp;出</button>
+</div>
+<div class="content">
+    <div class="menu">
+        <img src="../static/img/头像.jpeg">
+        <p>欢迎你，李四</p>
+        <ul>
+            <li><i class="iconfont icon-wenzhangguanli"></i><span>文章管理</span><strong>></strong></li>
+            <li><i class="iconfont icon-wenzhangliebiao"></i><span>文章列表</span><strong>></strong></li>
+            <li><i class="iconfont icon-tianjiawenzhang"></i><span>添加文章</span><strong>></strong></li>
+            <li><i class="iconfont icon-tianjiafenlei"></i><span>添加分类</span><strong>></strong></li>
+        </ul>
+    </div>
+    <div class="articleContent">
+        <div class="current_position">
+            <span>当前位置：文章管理>文章列表>文章详情</span>
+        </div>
+        <div class="addArticle_title">文章详情</div>
+        <div class="addArticle_content">
+                <div class="article_title">
+                    <span>文章标题:</span>
+                    <span class="detail">{{.article.Title}}</span>
+                </div>
+                <div class="article_type">
+                    <span>文章类型:</span>
+                    <span class="detail">体育新闻</span>
+                </div>
+                <div class="article_content">
+                    <span>文章内容:</span>
+                    <span class="detail">{{.article.Content}}</span>
+                </div>
+                <div class="upload_picture">
+                    <span>阅读次数:</span>
+                    <span class="detail">{{.article.Count}}</span>
+                </div>
+                <div class="upload_picture">
+                    <span>阅读人:</span>
+                    <span class="detail">张三   李四</span>
+                </div>
+                <div class="create_time">
+                    <span>创建时间:</span>
+                    <span class="detail">{{.article.Time.Format "2006-01-02 15:04:05"}}</span>
+                </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

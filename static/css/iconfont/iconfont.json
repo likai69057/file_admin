@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16921565",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e7ed",
+      "unicode_decimal": 59373
+    }
+  ]
+}

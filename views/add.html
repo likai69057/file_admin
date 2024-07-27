@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/addArticle/addArticle.css">
+    <link rel="stylesheet" href="../static/css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../static/css/iconfont2/iconfont.css">
+</head>
+<body>
+<div class="login_logo">
+    <img src="../static/img/系统.png">
+    <span>文章发布系统</span>
+    <button><i class="iconfont icon-tuichu"></i>退&nbsp;&nbsp;&nbsp;出</button>
+</div>
+<div class="content">
+    <div class="menu">
+        <img src="../static/img/头像.jpeg">
+        <p>欢迎你，李四</p>
+        <ul>
+            <li><i class="iconfont icon-wenzhangguanli"></i><span>文章管理</span><strong>></strong></li>
+            <li><i class="iconfont icon-wenzhangliebiao"></i><span>文章列表</span><strong>></strong></li>
+            <li><i class="iconfont icon-tianjiawenzhang"></i><span>添加文章</span><strong>></strong></li>
+            <li><i class="iconfont icon-tianjiafenlei"></i><span>添加分类</span><strong>></strong></li>
+        </ul>
+    </div>
+    <div class="articleContent">
+        <div class="current_position">
+            <span>当前位置：文章管理>文章列表</span>
+        </div>
+        <div class="addArticle_title">添加文章</div>
+        <div class="addArticle_content">
+            <form method="post" action="/addArticle" enctype="multipart/form-data">
+                <div class="article_title">
+                    <span>文章标题:</span>
+                    <input type="text" name="article_name">
+                </div>
+                <div class="article_type">
+                    <span>文章类型:</span>
+                    <select>
+                        <option>财经新闻</option>
+                        <option>体育新闻</option>
+                        <option>军事新闻</option>
+                    </select>
+                </div>
+                <div class="article_content">
+                    <span>文章内容:</span>
+                    <textarea name="article_content"></textarea>
+                </div>
+                <div class="upload_picture">
+                    <span>上传文件:</span>
+                    <input type="file" name="upload_file">
+                </div>
+                <input class="add_btn" type="submit" value="添  加">
+            </form>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

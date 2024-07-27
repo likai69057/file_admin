@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.login_logo{
+    background-color: #2c3f52;
+    height: 100px;
+    position: relative;
+}
+
+.login_logo img{
+    height: 70px;
+    margin-top: 18px;
+    margin-left: 40px;
+}
+.login_logo span{
+    position: relative;
+    left: 10px;
+    top: -17px;
+    line-height: 100px;
+    font-size: 50px;
+    color: white;
+    font-family: 宋体;
+    font-weight: bolder;
+}
+
+.login_logo button{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #129f93;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.login_logo button:hover{
+    background-color: #23ccbe;
+}
+
+.login_logo button i{
+
+}
+
+.content{
+    display: flex;
+    height: 100%;
+}
+
+.menu{
+    width: 250px;
+    height: 100%;
+    background-color: #445f7b;
+    position: relative;
+}
+
+.menu img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 60px;
+    top: 50px;
+}
+
+.menu p{
+    position: absolute;
+    left: 48px;
+    top: 150px;
+    color: white;
+    font-size: 18px;
+}
+
+.menu ul{
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    top: 200px;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.menu ul li{
+    height: 55px;
+    color: white;
+    cursor: pointer;
+}
+.menu ul li a{
+    text-decoration: none;
+    border: none;
+}
+.menu ul li:hover{
+    background-color: #6e92b7;
+}
+.menu ul li i{
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+.menu ul li:first-child{
+    padding-left: 30px;
+}
+
+.menu ul li:nth-child(2),
+ul li:nth-child(3),
+ul li:nth-child(4) {
+    padding-left: 60px;
+}
+.menu ul li span{
+    font-size: 17px;
+    line-height: 50px;
+    text-align: center;
+}
+.menu ul li strong{
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    float: right;
+    text-align: right;
+}
+.articleContent{
+    width: 100vw;
+}
+.articleContent .current_position{
+    height: 40px;
+    margin: 20px 30px;
+    background-color: #dbebfc;
+    border-left: 5px #fd8814 solid;
+    padding-left: 10px;
+}
+.articleContent .current_position span{
+    line-height: 40px;
+    color: #848d99;
+}
+.category_change{
+    padding-left: 30px;
+}
+.category_change span{
+    font-weight: bold;
+    font-family: "Microsoft YaHei UI";
+}
+.category_change select{
+    width: 120px;
+    height: 25px;
+    text-align: center;
+}
+.article_table{
+    width: 96%;
+    margin: 20px 30px;
+    border: 1px solid #dbdbdb;
+    border-collapse: collapse;
+
+}
+.article_table th, td{
+    border: 2px solid #dbdbdb;
+    height: 50px;
+}
+.page_change{
+    width: 96%;
+    margin: 20px 30px;
+}
+.page_change input{
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
+.page_btn{
+    margin-top: 30px;
+    margin-left: calc(50% - 200px);
+}
+.page_btn span{
+    line-height: 30px;
+}

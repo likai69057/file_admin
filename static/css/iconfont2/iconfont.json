@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "938703",
+      "name": "文章列表",
+      "font_class": "wenzhangliebiao",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "7919509",
+      "name": "文章管理",
+      "font_class": "wenzhangguanli",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "11182756",
+      "name": "添加分类",
+      "font_class": "tianjiafenlei",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "22236023",
+      "name": "添加文章",
+      "font_class": "tianjiawenzhang",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    }
+  ]
+}
